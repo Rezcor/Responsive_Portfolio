@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<title>Majeds Portfolio</title>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+<!-- Backround Picture-->
+
+
+  
+
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+                title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img class="ofme2" src="https://lh6.googleusercontent.com/-Ru7qvgXvCZg/AAAAAAAAAAI/AAAAAAAAABs/om0L0G8mitY/photo.jpg" style="width:45%;" class="w3-round"><br><br>
+            <h4><b>Majed Tech & Co</b></h4>
+            <p class="w3-text-grey">Majed<br>Othman<br>Khalil</p>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
+                    class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+        </div>
+        <div class="w3-panel w3-large">
+            <i class="fa fa-facebook-official w3-hover-opacity" >
+                    
+            </i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#"><img src="majeds avatar.jpg" style="width:65px;"
+            
+                    class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+                    class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <h1 class="ofme3"><b>My Portfolio</b></h1>
+                <div class="w3-section w3-bottombar w3-padding-16">
+                    <span class="w3-margin-right">Filter:</span>
+                    <button class="w3-button w3-black">ALL</button>
+                    <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+                    <button class="w3-button w3-white w3-hide-small"><i
+                            class="fa fa-photo w3-margin-right"></i>Photos</button>
+                    <button class="w3-button w3-white w3-hide-small"><i
+                            class="fa fa-map-pin w3-margin-right"></i>Art</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img class = "ofme" src="https://matthewhorne.me/wp-content/uploads/2016/03/coding-screen-1280x500.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Software Engineer/FullStack Developer</b></p>
+                    <p>Started my career into Web Development in the summer of 2019. Entered a Coding Bootcamp hosted by Trilogy at UCI.(University of California Irvine)</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img class="ofme" src="https://conversionxl.com/wp-content/uploads/2018/09/coding-language.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Coding Languages</b></p>
+                    <p>Multiple Coding Languages that i know of are: Html & CSS, Java, JavaScript, Node.js, React, HandleBars, MySql & Sequelize, firebase, MongoDB, JQuery & And much more.
+                        My favorite Script is JavaScript and React.
+                        I also love using Visual Studio Code.
+                    </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img class="ofme" src="https://miro.medium.com/max/4800/1*8acs5y4LSiOW3woxp5m7CQ.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>LeaderShip Skills</b></p>
+                    <p> Joined the Fountain Valley Police Explorers in 2006, finished my OCLEEA Training Acadaemy at Los ALimitos Joint Force Training Base in 2008. Im a stern and strong induvidual that has both a sensible Humor and motivated work flow. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img class="ofme" src="https://images.theconversation.com/files/267621/original/file-20190404-123395-155dk1m.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=668&h=324&fit=crop" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Cyber Security</b></p>
+                    <p>Planning to intergrate my Coding Knowlege to develop apps & sites to produce VPNS and encryptions.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img class="ofme" src="https://cdn.buttercms.com/MKui6EPcSkSa7E7pJEFg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Utilizing Visual Studio Code</b></p>
+                    <p>My main Platform that i use is Visual Studio Code, my main OS is Mac, but i do use a PC from time to time.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img class="ofme" src="https://static.makeuseof.com/wp-content/uploads/2018/03/programming-game-codingame.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Programs i use</b></p>
+                    <p>I use Unity and Unreal Engines to Practice and Learn to make Realist and dynamic video games. I type my code using Visual Studio Code.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+
+        <!-- Images of Me -->
+        <div class="w3-row-padding w3-padding-16" id="about">
+            <div class="w3-col m6">
+                <img class="ofme" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/58745098_10214648725993132_6835529039579447296_o.jpg?_nc_cat=108&_nc_oc=AQm2x7uRVvpOHo9m7lgTsDHVyleJ6lu6bCiu6YvCCCG1JxRXKfpMh31fHjJNRGR0gh4&_nc_ht=scontent-lax3-1.xx&oh=bfb0ef80564eb341df5bd052f548f877&oe=5DE0CB6E" alt="Me" style="width:100%">
+            </div>
+            <div class="w3-col m6">
+                <img class="ofme" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/310161_2143096578285_1788097529_n.jpg?_nc_cat=101&_nc_oc=AQkm2IzaXVIW-VX6NZzKNs1oWb8MJb8e10G82Kn1SDtQAgdpLqacdgkUhMKguv4ao7E&_nc_ht=scontent-lax3-1.xx&oh=025c332e98ef5d932f21238b539e310b&oe=5DB59C0C" alt="Me" style="width:100%">
+            </div>
+        </div>
+        <!--About me -->
+
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <h4 class="ofme3"><b>About Me</b></h4>
+            <p class="ofme3">Just me, myself and I, exploring the universe of unknownment. <br>
+                My name is Majed Khalil, im from Fountain Valley, CA. 
+                <br>Ive been doing Web Development for aboout a year now! 
+                <br>Languages i know of : HTML/CSS, Java, JavaScript, Node, mySQL, and Firebase. 
+                <br>My interest in Coding vary from the Video Game Indistury with my passion for gaming.
+                <br>To the Website crafting of Web/FullStack Devolopers across the nation.<br>
+             </p>
+            <hr>
+
+            <h4 class="ofme4">Technical Skills</h4>
+            <!-- Progress bars / Skills -->
+            <p class="ofme4">Photography</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+            </div>
+            <p class="ofme4">Web Design</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+            </div>
+            <p class="ofme4">Photoshop</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+            </div>
+            <p class="ofme4">
+                <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+                    <i class="fa fa-download w3-margin-right"></i>Download Resume
+                </button>
+            </p>
+            <hr>
+
+            <h4>How much I charge</h4>
+            <!-- Pricing Tables -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+                        <li class="w3-padding-16">Web Design</li>
+                        <li class="w3-padding-16">Photography</li>
+                        <li class="w3-padding-16">1GB Storage</li>
+                        <li class="w3-padding-16">Mail Support</li>
+                        <li class="w3-padding-16">
+                            <h2>$ 10</h2>
+                            <span class="w3-opacity">per month</span>
+                        </li>
+                        <li class="w3-light-grey w3-padding-24">
+                            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
+                        <li class="w3-padding-16">Web Design</li>
+                        <li class="w3-padding-16">Photography</li>
+                        <li class="w3-padding-16">50GB Storage</li>
+                        <li class="w3-padding-16">Endless Support</li>
+                        <li class="w3-padding-16">
+                            <h2>$ 25</h2>
+                            <span class="w3-opacity">per month</span>
+                        </li>
+                        <li class="w3-light-grey w3-padding-24">
+                            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w3-third">
+                    <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+                        <li class="w3-padding-16">Web Design</li>
+                        <li class="w3-padding-16">Photography</li>
+                        <li class="w3-padding-16">Unlimited Storage</li>
+                        <li class="w3-padding-16">Endless Support</li>
+                        <li class="w3-padding-16">
+                            <h2>$ 35</h2>
+                            <span class="w3-opacity">per month</span>
+                        </li>
+                        <li class="w3-light-grey w3-padding-24">
+                            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-large w3-grey">
+            <h4 id="contact"><b>Contact Me</b></h4>
+            <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+                <div class="w3-third w3-dark-grey">
+                    <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>majedkhalil17@gmail.com</p>
+                </div>
+                <div class="w3-third w3-teal">
+                    <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>Fountain Valley California, US</p>
+                </div>
+                <div class="w3-third w3-dark-grey">
+                    <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>714-655-7959</p>
+                </div>
+            </div>
+            <hr class="w3-opacity">
+            <form action="/action_page.php" target="_blank">
+                <div class="w3-section">
+                    <label>Name</label>
+                    <input class="w3-input w3-border" type="text" name="Name" required>
+                </div>
+                <div class="w3-section">
+                    <label>Email</label>
+                    <input class="w3-input w3-border" type="text" name="Email" required>
+                </div>
+                <div class="w3-section">
+                    <label>Message</label>
+                    <input class="w3-input w3-border" type="text" name="Message" required>
+                </div>
+                <button type="submit" class="w3-button w3-black w3-margin-bottom"><i
+                        class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+            </form>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-dark-grey">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <h3>About my sites</h3>
+                    <p>Heres a few sites ive made within the summer. Includes a Cannabis Strain Selector Website that chooses a strain depending on your mood as well as pulling a random strain for you.
+                        As well as a HearthStone Website with a search engine connected to Rapid API as well as our own directory of Meta decks used today in the pc/mobile port.
+                    </p>
+                    <p><a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+                </div>
+
+                <div class="w3-third">
+                    <h3>Websites Ive Made </h3>
+                    <ul class="w3-ul w3-hoverable">
+                        <li class="w3-padding-16">
+                            <img src="./assets/MoodzLogo2.jpg" class="w3-left w3-margin-right" style="width:50px">
+                            <span class="w3-large">Moodz Cannabis Strain Selector Website </span><br>
+                            <span>Check it out</span>
+                            <p><a href="https://boiling-brook-38760.herokuapp.com"_blank>Moodz</a></p>
+                        </li>
+                        <li class="w3-padding-16">
+                            <img src="./assets/HearthStone Logo.jpg" class="w3-left w3-margin-right" style="width:50px">
+                            <span class="w3-large">HearthStone Meta Card & Deck website</span><br>
+                            <span>Check it out</span>
+                            <p><a href="https://www.w3schools.com/w3css/default.asp" target="_blank">HearthStone</a></p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w3-third">
+                    <h3>POPULAR TAGS</h3>
+                    <p>
+                        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Los Angeles</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Orange County</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">San Fransico</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Coding</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+                    </p>
+                </div>
+
+            </div>
+        </footer>
+
+        <div class="w3-black w3-center w3-padding-24"> 
+                </div>
+
+        <!-- End page content -->
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
